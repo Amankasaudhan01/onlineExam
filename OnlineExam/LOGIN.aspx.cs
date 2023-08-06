@@ -52,7 +52,7 @@ namespace OnlineExam
             }
         }
 
-        protected void Button1_Click(object sender, EventArgs e)  // signup button
+        protected void Button1_Click(object sender, EventArgs e) 
         {
             
         }
