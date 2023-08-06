@@ -22,7 +22,7 @@ namespace OnlineExam
         protected void Button1_Click(object sender, EventArgs e)  // Insert Buuton
         {
             String query = "insert into mcqdetails values (@ques,@op1,@op2,@op3,@op4,@ans,@qtag);";
-            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = Laptop-H2PM607C");
+            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = AMAN");
             sqlcon.Open();
             SqlCommand cmd = new SqlCommand(query, sqlcon);
             cmd.Parameters.AddWithValue("@ques", TextBox1.Text.Trim());
@@ -50,7 +50,7 @@ namespace OnlineExam
            
             int i = 0;
             String query = "select * from mcqdetails where qno = '" + TextBox8.Text + "'";
-            SqlConnection sqlCon = new SqlConnection("Trusted_Connection = Yes;database = onlineExam;server = LAPTOP-H2PM607C");
+            SqlConnection sqlCon = new SqlConnection("Trusted_Connection = Yes;database = onlineExam;server = AMAN");
             sqlCon.Open();
             SqlDataAdapter da = new SqlDataAdapter(query, sqlCon);
             DataSet ds = new DataSet();
@@ -70,7 +70,7 @@ namespace OnlineExam
         protected void Button3_Click(object sender, EventArgs e) // update Button
         {
             String query = "update mcqdetails set ques=@ques,op1=@op1,op2=@op2,op3=@op3,op4=@op4,ans=@ans,qtag=@qtag where qno = '" + TextBox8.Text + "'";
-            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = Laptop-H2PM607C");
+            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = AMAN");
             sqlcon.Open();
             SqlCommand cmd = new SqlCommand(query, sqlcon);
             cmd.Parameters.AddWithValue("@ques", TextBox1.Text);

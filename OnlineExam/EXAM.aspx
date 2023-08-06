@@ -16,9 +16,9 @@
 </head>
 <body style="height: 778px">
     <form id="form1" runat="server">
-        <div style="margin-right:auto;margin-left:auto;text-align:center;background-color:lightblue;">
+        <div style="margin-right:auto;margin-left:auto;text-align:center;background-color:aqua;">
             <br />
-            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Online Examination System Management"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Online Examination System"></asp:Label>
             <br />
             <br />
         </div>
@@ -29,7 +29,7 @@
 
             &nbsp;</p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
-            <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="XX-Large" Font-Strikeout="False" Font-Underline="False" ForeColor="#336600" Text="Complete Your Exam in 5 Minutes"></asp:Label>
+            <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="XX-Large" Font-Strikeout="False" Font-Underline="False" ForeColor="#336600" Text="Complete Your Exam"></asp:Label>
         </p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
             &nbsp;</p>
@@ -176,7 +176,7 @@
              &nbsp;</p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
 
-            <asp:Button ID="Button5" runat="server" BackColor="#FFCCCC" BorderColor="Black" Font-Bold="True" Font-Names="Arial" Font-Size="Large" Height="41px" Text="Submit" Width="263px" OnClick="Button5_Click" />
+            <asp:Button ID="Button5" runat="server" BackColor="blue" BorderColor="Black" Font-Bold="True" Font-Names="Arial" Font-Size="Large" Height="41px" Text="Submit" Width="263px" OnClick="Button5_Click" />
 
             </p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
@@ -187,10 +187,6 @@
             &nbsp;</p>
 
     </form>
-    <footer>
-        <p style="margin-left:auto;margin-right:auto;text-align:center;background-color:aquamarine">
-            <asp:Label ID="Label4" runat="server" Font-Size="Large" ForeColor="Black" Text="@Created By Himanshu Sharma😎"></asp:Label>
-        </p>
-    </footer>
+
 </body>
 </html>

@@ -17,7 +17,7 @@ namespace OnlineExam
             {
                 Response.Redirect("LOGIN.aspx");
             }
-            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = Laptop-H2PM607C");
+            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = AMAN");
             sqlcon.Open();
             SqlDataAdapter da = new SqlDataAdapter("select * from userinfo", sqlcon);
             DataSet ds = new DataSet();
@@ -28,7 +28,7 @@ namespace OnlineExam
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = Laptop-H2PM607C");
+            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = AMAN");
             sqlcon.Open();
             String query = "update userinfo set pwd=@pass where uname = '" + TextBox1.Text + "'";
             SqlCommand cmd = new SqlCommand(query, sqlcon);

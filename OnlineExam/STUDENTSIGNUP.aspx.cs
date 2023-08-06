@@ -22,7 +22,7 @@ namespace OnlineExam
         protected void Button1_Click(object sender, EventArgs e)
         {
             String query = "insert into userinfo values (@username,@pass,@email,@class,@address,@phone,@blood,@fname);";
-            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = Laptop-H2PM607C");
+            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = AMAN");
             sqlcon.Open();
             SqlCommand cmd = new SqlCommand(query, sqlcon);
             cmd.Parameters.AddWithValue("@username",TextBox1.Text.Trim());

@@ -17,7 +17,7 @@ namespace OnlineExam
             {
                 Response.Redirect("LOGIN.aspx");
             }
-            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = Laptop-H2PM607C");
+            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = AMAN");
             sqlcon.Open();
             SqlDataAdapter da = new SqlDataAdapter("select * from mcqdetails", sqlcon);
             DataSet ds = new DataSet();

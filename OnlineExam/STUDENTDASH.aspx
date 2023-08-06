@@ -19,9 +19,9 @@
 </head>
 <body  style="height: 778px">
     <form id="form1" runat="server">
-         <div style="margin-right:auto;margin-left:auto;text-align:center;background-color:lightblue;">
+         <div style="margin-right:auto;margin-left:auto;text-align:center;background-color:aqua;">
             <br />
-            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Online Examination System Management"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Online Examination System"></asp:Label>
             <br />
             <br />
         </div>
@@ -33,7 +33,7 @@
             <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True" Font-Underline="True" ForeColor="Black" OnClick="LinkButton1_Click">LOG OUT</asp:LinkButton>
         </p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
-            <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="XX-Large" Font-Strikeout="False" Font-Underline="False" ForeColor="#336600" Text="WELCOME TO STUDENT DASHBOARD"></asp:Label>
+            <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="XX-Large" Font-Strikeout="False" Font-Underline="False" ForeColor="black" Text="STUDENT DASHBOARD"></asp:Label>
         </p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
             &nbsp;</p>
@@ -42,28 +42,28 @@
         <p style="margin-right:auto;margin-left:auto;text-align:center">
             &nbsp;</p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
-            <asp:Button ID="Button1" runat="server" BackColor="#FFCCCC" BorderColor="Black" Font-Bold="True" Font-Names="Arial" Font-Size="Large" Height="41px" Text="Take Test" Width="263px" OnClick="Button1_Click" />
+            <asp:Button ID="Button1" runat="server" BackColor="aqua" BorderColor="Black" Font-Bold="True" Font-Names="Arial" Font-Size="Large" Height="41px" Text="Take Test" Width="263px" OnClick="Button1_Click" />
         </p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
             &nbsp;</p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
             &nbsp;</p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
-            <asp:Button ID="Button2" runat="server" BackColor="#FFCCCC" BorderColor="Black" Font-Bold="True" Font-Names="Arial" Font-Size="Large" Height="41px" Text="View Result" Width="263px" OnClick="Button2_Click" />
+            <asp:Button ID="Button2" runat="server" BackColor="aqua" BorderColor="Black" Font-Bold="True" Font-Names="Arial" Font-Size="Large" Height="41px" Text="View Result" Width="263px" OnClick="Button2_Click" />
         </p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
             &nbsp;</p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
             &nbsp;</p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
-            <asp:Button ID="Button3" runat="server" BackColor="#FFCCCC" BorderColor="Black" Font-Bold="True" Font-Names="Arial" Font-Size="Large" Height="41px" Text="Profile" Width="263px" OnClick="Button3_Click" />
+            <asp:Button ID="Button3" runat="server" BackColor="aqua" BorderColor="Black" Font-Bold="True" Font-Names="Arial" Font-Size="Large" Height="41px" Text="Profile" Width="263px" OnClick="Button3_Click" />
         </p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
             &nbsp;</p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
             &nbsp;</p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
-            <asp:Button ID="Button5" runat="server" BackColor="#FFCCCC" BorderColor="Black" Font-Bold="True" Font-Names="Arial" Font-Size="Large" Height="41px" Text="Log Out" Width="263px" OnClick="Button5_Click" />
+            <asp:Button ID="Button5" runat="server" BackColor="red" BorderColor="Black" Font-Bold="True" Font-Names="Arial" Font-Size="Large" Height="41px" Text="Log Out" Width="263px" OnClick="Button5_Click" />
         </p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
             &nbsp;</p>

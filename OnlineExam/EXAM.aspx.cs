@@ -14,7 +14,7 @@ namespace OnlineExam
         protected void Page_Load(object sender, EventArgs e)
         {
             string ET = "";
-            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = Laptop-H2PM607C");
+            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = AMAN");
             sqlcon.Open();
             // for 1st question on screen
             String query = "select * from mcqdetails where qno = '" + "5" + "'";
@@ -168,7 +168,7 @@ namespace OnlineExam
             Session["_tMark"] = mark;
 
             /*// for inserting marks in table
-            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = Laptop-H2PM607C");
+            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = AMAN");
             sqlcon.Open();
             String query = "insert into userinfo(marks) values('" + mark + "')";
             SqlCommand cmd = new SqlCommand(query, sqlcon);

@@ -19,7 +19,7 @@ namespace OnlineExam
                 Response.Redirect("LOGIN.aspx");
             }
             String query = "select * from userinfo where uname = '" + Session["username"].ToString() + "'";
-            SqlConnection con = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = Laptop-H2PM607C");
+            SqlConnection con = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = AMAN");
             con.Open();
             
             SqlDataAdapter da = new SqlDataAdapter(query, con);

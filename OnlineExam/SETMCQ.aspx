@@ -29,9 +29,9 @@
 </head>
 <body style="height: 720px">
     <form id="form1" runat="server">
-       <div style="margin-right:auto;margin-left:auto;text-align:center;background-color:lightblue;">
+       <div style="margin-right:auto;margin-left:auto;text-align:center;background-color:aqua;">
             <br />
-            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Online Examination System Management"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Online Examination System"></asp:Label>
             <br />
             <br />
         </div>
@@ -47,7 +47,7 @@
             &nbsp;</p>
        
         <p style="margin-right:auto;margin-left:auto;text-align:center">
-            <asp:Label ID="Label10" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="XX-Large" Font-Strikeout="False" Font-Underline="False" ForeColor="#336600" Text="ADD QUESTION / ANSWERS"></asp:Label>
+            <asp:Label ID="Label10" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="XX-Large" Font-Strikeout="False" Font-Underline="False" ForeColor="black" Text="ADD QUESTION"></asp:Label>
         </p>
         <p>
 
@@ -85,13 +85,13 @@
             <br />
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" BackColor="#FFCCCC" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="40px" Text="Add Question" Width="150px" OnClick="Button1_Click" />
+            <asp:Button ID="Button1" runat="server" BackColor="aqua" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="40px" Text="Add Question" Width="150px" OnClick="Button1_Click" />
 &nbsp;&nbsp;
-            <asp:Button ID="Button2" runat="server" BackColor="#FFCCCC" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="40px" Text="Select" Width="150px" OnClick="Button2_Click" />
+            <asp:Button ID="Button2" runat="server" BackColor="aqua" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="40px" Text="Select" Width="150px" OnClick="Button2_Click" />
 &nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button3" runat="server" BackColor="#FFCCCC" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="40px" Text="Update" Width="150px" OnClick="Button3_Click" />
+            <asp:Button ID="Button3" runat="server" BackColor="aqua" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="40px" Text="Update" Width="150px" OnClick="Button3_Click" />
 &nbsp;&nbsp;
-            <asp:Button ID="Button4" runat="server" BackColor="#FFCCCC" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="40px" Text="Clear" Width="150px" OnClick="Button4_Click" />
+            <asp:Button ID="Button4" runat="server" BackColor="aqua" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="40px" Text="Clear" Width="150px" OnClick="Button4_Click" />
 
         </div>
 
@@ -116,7 +116,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-            <asp:Button ID="Button5" runat="server" BackColor="#FFCCCC" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="40px" Text="Set Exam" Width="150px" OnClick="Button5_Click" />
+            <asp:Button ID="Button5" runat="server" BackColor="aqua" Font-Bold="True" Font-Names="Arial" Font-Size="Small" Height="40px" Text="Set Exam" Width="150px" OnClick="Button5_Click" />
             <br />
 
         </div>
@@ -132,10 +132,6 @@
             &nbsp;</p>
     </form>
 
-    <footer>
-        <p style="margin-left:auto;margin-right:auto;text-align:center;background-color:aquamarine">
-            <asp:Label ID="Label11" runat="server" Font-Size="Large" ForeColor="Black" Text="@Created By Himanshu Sharma😎"></asp:Label>
-        </p>
-    </footer>
+   
 </body>
 </html>

@@ -28,7 +28,7 @@ namespace OnlineExam
         protected void Button3_Click(object sender, EventArgs e) // update
         {
             String query = "update userinfo set pwd=@pwd,email=@email,address=@address,phone=@phone where userid = '" + TextBox8.Text + "'";
-            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam ; server = Laptop-H2PM607C");
+            SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam ; server = AMAN");
             sqlcon.Open();
             SqlCommand cmd = new SqlCommand(query, sqlcon);
             cmd.Parameters.AddWithValue("@pwd", TextBox2.Text);
@@ -45,7 +45,7 @@ namespace OnlineExam
         {
             int i = 0;
             String query = "select * from userinfo where uname = '" + Session["username"].ToString() + "'";
-            SqlConnection sqlCon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = Laptop-H2PM607C");
+            SqlConnection sqlCon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = AMAN");
             sqlCon.Open();
             SqlDataAdapter da = new SqlDataAdapter(query, sqlCon);
             DataSet ds = new DataSet();

@@ -11,8 +11,8 @@ namespace OnlineExam
 {
     public partial class LOGIN : System.Web.UI.Page
     {
-        String uname = "himanshu";
-        String pwd = "finthrive";
+        String uname = "Aman";
+        String pwd = "123456789";
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -34,7 +34,7 @@ namespace OnlineExam
             }
             else if(DropDownList1.SelectedItem.Text == "Student")
             {
-                SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = Laptop-H2PM607C");
+                SqlConnection sqlcon = new SqlConnection("Trusted_Connection = Yes; database = onlineExam; server = AMAN");
                 sqlcon.Open();
                 SqlCommand cmd = new SqlCommand("select count(1) from userinfo where uname = @username and pwd = @password", sqlcon);
                 cmd.Parameters.AddWithValue("@username", TextBox1.Text.Trim());

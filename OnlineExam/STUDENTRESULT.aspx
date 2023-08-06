@@ -19,9 +19,9 @@
 </head>
 <body style="height: 615px">
     <form id="form1" runat="server">
-        <div style="margin-right:auto;margin-left:auto;text-align:center;background-color:lightblue;">
+        <div style="margin-right:auto;margin-left:auto;text-align:center;background-color:aqua;">
             <br />
-            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Online Examination System Management"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Online Examination System"></asp:Label>
             <br />
             <br />
         </div>
@@ -33,7 +33,7 @@
             <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True" Font-Underline="True" ForeColor="Black" OnClick="LinkButton1_Click">LOG OUT</asp:LinkButton>
         </p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
-            <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="XX-Large" Font-Strikeout="False" Font-Underline="False" ForeColor="#336600" Text="CHECK YOUR RESULT"></asp:Label>
+            <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="XX-Large" Font-Strikeout="False" Font-Underline="False" ForeColor="black" Text="YOUR RESULT"></asp:Label>
         </p>
         <p style="margin-right:auto;margin-left:auto;text-align:center">
             &nbsp;</p>
@@ -92,10 +92,6 @@
         <p style="margin-right:auto;margin-left:auto;text-align:center">
 
             &nbsp;</p>
-     <footer>
-        <p style="margin-left:auto;margin-right:auto;text-align:center;background-color:aquamarine">
-            <asp:Label ID="Label5" runat="server" Font-Size="Large" ForeColor="Black" Text="@Created By Himanshu Sharma😎"></asp:Label>
-        </p>
-    </footer>
+     
 </body>
 </html>

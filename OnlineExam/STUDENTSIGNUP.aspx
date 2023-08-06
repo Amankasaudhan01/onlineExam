@@ -19,9 +19,9 @@
 </head>
 <body style="height: 926px">
     <form id="form1" runat="server">
-        <div style="margin-right:auto;margin-left:auto;text-align:center;background-color:lightblue;">
+        <div style="margin-right:auto;margin-left:auto;text-align:center;background-color:aqua;">
             <br />
-            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Online Examination System Management"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Online Examination System"></asp:Label>
             <br />
             <br />
         </div>
@@ -35,7 +35,7 @@
         <p>
 
             &nbsp;</p>
-                <div style="background-color:beige;border:0.2px solid black; height: 731px; width:809px; margin-left:auto;margin-right:auto;text-align:center">
+                <div style="background-color:mediumaquamarine;border:0.2px solid black; height: 731px; width:809px; margin-left:auto;margin-right:auto;text-align:center">
 
             <br />
             <br />
@@ -85,19 +85,15 @@
                     &nbsp;<br />
                     <br />
                     <br />
-                    <asp:Label ID="Label11" runat="server" Text="Already a Member?"></asp:Label>
+                    <asp:Label ID="Label11" runat="server" Text="Have a ID?"></asp:Label>
 &nbsp;<asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True" Font-Underline="False" ForeColor="Black" PostBackUrl="~/LOGIN.aspx">Log In</asp:LinkButton>
                     <br />
                     <br />
-                    <asp:Button ID="Button1" runat="server" BackColor="Lime" Font-Bold="True" Font-Size="Large" Height="40px" Text="Sign Up" Width="289px" OnClick="Button1_Click" />
+                    <asp:Button ID="Button1" runat="server" BackColor="blue" Font-Bold="True" Font-Size="Large" Height="40px" Text="Sign Up" Width="289px" OnClick="Button1_Click" />
                 </div>
     </form>
     <p></p>
     <p></p>
-    <footer>
-        <p style="margin-left:auto;margin-right:auto;text-align:center;background-color:aquamarine">
-            <asp:Label ID="Label12" runat="server" Font-Size="Large" ForeColor="Black" Text="@Created By Himanshu Sharma😎"></asp:Label>
-        </p>
-    </footer>
+    
 </body>
 </html>
